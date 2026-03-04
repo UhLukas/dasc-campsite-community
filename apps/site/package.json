@@ -12,6 +12,7 @@
   "dependencies": {
     "@campsite/config": "workspace:*",
     "@campsite/editor": "workspace:*",
+    "@campsite/tsconfig": "workspace:*",
     "@campsite/ui": "workspace:*",
     "@mdx-js/loader": "catalog:",
     "@mdx-js/react": "catalog:",
