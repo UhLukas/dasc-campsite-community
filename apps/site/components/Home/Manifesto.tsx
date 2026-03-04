@@ -299,11 +299,11 @@ function PostsGraphic() {
     <div className='mb-4 mt-4 flex flex-col gap-6 lg:-mx-4 xl:-mx-6 2xl:-mx-8'>
       <div className='group/posts relative flex items-center justify-center'>
         <CompactPost
-          className='absolute left-[1rem] top-3.5 z-[1] max-w-[calc(100%-2rem)] opacity-50 transition-all delay-100 group-hover/posts:-translate-y-4 group-hover/posts:opacity-0 group-hover/posts:delay-[150ms]'
+          className='absolute left-[1rem] top-3.5 z-[1] max-w-[calc(100%-2rem)] opacity-50 transition-all delay-100 group-hover/posts:-translate-y-4 group-hover/posts:opacity-0 group-hover/posts:delay-150'
           post={null}
         />
         <CompactPost
-          className='absolute left-[0.5rem] top-2 z-[2] max-w-[calc(100%-1rem)] bg-white/80 opacity-80 backdrop-blur-lg transition-all delay-[150ms] group-hover/posts:-translate-y-2.5 group-hover/posts:opacity-0 group-hover/posts:delay-100 dark:bg-gray-900/80'
+          className='absolute left-[0.5rem] top-2 z-[2] max-w-[calc(100%-1rem)] bg-white/80 opacity-80 backdrop-blur-lg transition-all delay-150 group-hover/posts:-translate-y-2.5 group-hover/posts:opacity-0 group-hover/posts:delay-100 dark:bg-gray-900/80'
           post={null}
         />
         <Link href='https://app.campsite.com/campsite/posts/edf4uyexwd84' target='_blank'>
