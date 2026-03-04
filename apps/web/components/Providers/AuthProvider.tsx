@@ -19,7 +19,7 @@ interface Props {
   allowLoggedOut: boolean
 }
 
-const redirectToSignin = () => window.location.replace(signinUrl({ from: window.location.pathname }))
+const redirectToSignin = () => window.location.replace(signinUrl({ from: `${WEB_URL}${window.location.pathname}${window.location.search}` }))
 
 export function AuthProvider({ children, allowLoggedOut }: Props) {
   const { data: currentUser, isLoading: userIsLoading, error: userError, isSuccess: userSuccess } = useGetCurrentUser()

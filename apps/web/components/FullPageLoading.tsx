@@ -17,7 +17,7 @@ export function FullPageLoading() {
 
   return (
     <div
-      className={cn('flex w-full flex-1 items-center justify-center', {
+      className={cn('flex w-full flex-1 items-center justify-center bg-primary', {
         'opacity-0': !show
       })}
     >
